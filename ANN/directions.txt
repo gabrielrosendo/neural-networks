@@ -1,0 +1,31 @@
+ANNs are simple enough for inexperienced programmers, but sufficiently complex to implement essential components that will be expanded later. 
+These include multilayer perceptron (MLP), backpropagation, forward propagation, and error.
+
+In this assignment, students will build an ANN. Then, write a comprehensive technical report as a Python Jupyter notebook to include all code, 
+code comments, all outputs, plots, and analysis. Make sure the project documentation contains a) Problem statement, b) Algorithm of the solution,
+ c) Analysis of the findings, and d) References.
+
+Download the "NBA Players Dataset," located in the topic Resources. The data set contains basketball players' characteristics.
+
+Select a pool of 100 players from the data set, within a 5-year window.
+Define "optimal team" based on your decision of the player characteristics necessary to build a team. For example, if all 5 players are 3-point shooters,
+ the team will miss defenders, which will make it unbalanced.
+Your task is to identify the optimal team of 5 players from that pool.
+Examine the multilayer neural network MLP architecture depicted in the "CST-435 An Artificial Neural Network Model Image."
+Build a deep artificial neural network MLP to include the following: a) 1 input layer, b) as many hidden layers as you deem necessary, 
+and c) an output layer fully connected to the hidden layers.
+Explain your architecture and how the basketball player characteristics are used as inputs.
+Activate the MLP by performing the following steps:
+
+Starting at the input layer, forward propagate the patterns of the training data through the network to generate an output.
+Based on the network's output, calculate the error that we want to minimize using a cost function that we will describe later.
+Backpropagate the error, find its derivative with respect to each weight in the network, and update the model.
+Repeat steps 1 through 3 for multiple epochs and learn the weights of the MLP.
+Use forward propagation to calculate the network output and apply a threshold function to obtain the predicted class labels in the one-hot representation.
+Interpret the output of your MLP in the context of selecting an optimal basketball team.
+APA style is not required, but solid academic writing is expected.
+
+This assignment uses a rubric. Please review the rubric prior to beginning the assignment to become familiar with the expectations for successful completion.
+
+You are not required to submit this assignment to LopesWrite. 
+
