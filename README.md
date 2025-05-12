@@ -8,3 +8,4 @@ Deep learning projects experimenting with different Neural Network concepts.
 - **Faces-CNN**: Predicts age from facial images using a Convolutional Neural Network trained on the IMDB-WIKI dataset.
 - **Flowers Classifier**: Classifies different types of flowers using a CNN trained on image data.
 - **Dog Image Generator (GAN)**: Tried to generate dog images using a Generative Adversarial Network. Not accurate.
+- **Sentiment Analysis**
